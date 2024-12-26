@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>Glasklar Cleopatra</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="common.css">  
+	<link rel="stylesheet" href="media2000.css">  
+	<link rel="stylesheet" href="media1400.css">  
+	<link rel="stylesheet" href="media0900.css">  
+	<link rel="stylesheet" href="menu.css">  
+	<link rel="stylesheet" href="responsiveslides.css">  
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script> 
+	
+	<script type="text/javascript" src="Index.js"></script>
+</head>
+<body>
+<p>Seite abgerufen am 
+   <?php 
+      echo ( date('d.m.Y \u\m H:i:s') );
+   ?> 
+Uhr</p>
+	<div class="BodyContainer">
+		<header>
+			<div class="HeaderLogo"></div>
+			<div class="HeaderBild">
+				<img class="HeaderImage" src="~/Bilder/CIMG0087_Spinne_100px.jpg">
+				<img class="HeaderImage" src="~/Bilder/CIMG0174_Weihnachtsmarkt1_100px.jpg">
+				<img class="HeaderImage" src="~/Bilder/P6240044_Zeugnis_100px.jpg">
+				<img class="HeaderImage" src="~/Bilder/CIMG0191_Scorpion_100px.jpg">				
+				<img class="HeaderImage" src="~/Bilder/CIMG0174_Weihnachtsmarkt2_100px.jpg">
+			</div> 
+		</header>
+		<nav>
+			<div id='cssmenu'>
+				<ul>
+				   <li class='has-sub'><a href='Index.html'>Start</a>
+				      <ul>
+				         <li class='last'><a href="#" onclick="$('#TextDIV').load('Kontakt.html');">Kontakt</a></li>
+				         <li class='last'><a href="#" onclick="$('#TextDIV').load('Impressum.html');">Impressum</a></li>
+				      </ul>
+				   </li>
+				   <li             ><a href='#' onclick="$('#TextDIV').load('Bildergalerien.php');">Bildergalerien</a></li>
+		           <li class='last'><a href='#' onclick="$('#TextDIV').load('Suche.php');"><span>Bildersuche</span></a></li>
+				   <li             ><a href='#' onclick="$('#TextDIV').load('Herstellung.html');">Herstellung</a></li>
+				   <li             ><a href='#' onclick="$('#TextDIV').load('Bestellungen.html');">Bestellungen</a></li>
+				   <li             ><a href='#' onclick="$('#TextDIV').load('Gaestebuch.html');">G&auml;stebuch</a></li>
+				  </ul>
+			</div>
+		</nav>
+		<section id="ContentSection" class="ContentSection">
+			<div id="ShadowArea" class='ShadowArea'>
+				<div id="ScrollDIV" class="IAmScrollable">
+					<div id="TextDIV" class="IAmTextWithBorders">
+						<p></p>
+						<div style="font-size:xx-large;font-weight:bolder;">Herzlich Willkommen...</div>
+						<br><span style="padding:25%;">...auf der Internetseite von Glasklar Cleopatra.</span> 
+						<br>
+						<TABLE id="Ereignistabelle">
+							<!--TR class="Ereigniszeile">
+								<TD id="td_Markt_logo">weihnachtlicher Glasmarkt</TD>
+								<TD class="Ereignistext">
+									Am 5.12.2015 findet mein 1. weihnachtlicher Glasmarkt statt.<br>
+									&bull;&nbsp;Vorf&uuml;hrung&nbsp;&bull;&nbsp;Verkauf&nbsp;&bull;&nbsp;Beratung&nbsp;&bull;<br>
+									Besuchen Sie mich in der Andreasstra&szlig;e 19 in Lautertal.<br>
+									Ich bin von 13:00 bis 18:00 f&uuml;r Sie da.
+								</TD>
+							</TR-->
+							<!--TR class="Ereigniszeile">
+								<TD id="td_Markt_logo">Herbstwelt</TD>
+								<TD class="Ereignistext">
+									Zur Zeit finden Sie in meinem Studio eine Ausstellung herbstlicher Dekorationsartikel<br>
+									Vorbeischauen lohnt sich bestimmt.
+								</TD>
+							</TR-->
+							<TR class="Ereigniszeile">
+								<TD id="td_Brennen"><br>
+									<span class="feuer">
+										<span>S</span><span>c</span><span>h</span><span>a</span><span>u</span><span>b</span><span>r</span><span>e</span><span>n</span><span>n</span><span>e</span><span>n</span></span>
+								</TD>
+								<TD class="Ereignistext">Jeden ersten Freitag im Monat fertige ich am Brenner.<br>
+									Besucher sind herzlich willkommen.
+								</TD>
+							</TR>
+						</TABLE>
+						<br>   
+						Viel Spa&szlig; beim Betrachten.<br>
+						Doris Cleopatra Klepp<br>
+				</div>
+			</div> 
+		</section> 
+		<footer>
+			<!-- span class="VisitorCounter"><img id="tincInclude5995" src="tinc?key=NUdHXZNT" width="60" height="30"></span-->
+			<span class="CopyRight">&copy; Georg Klepp 2015</span> 
+		</footer>
+	</div>   
+</body> 
+</html>

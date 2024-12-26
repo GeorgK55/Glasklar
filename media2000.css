@@ -1,0 +1,101 @@
+@media only screen and (min-width: 1600px) and (max-width: 3000px) {
+
+.BodyContainer {
+	margin-top: 	10px;
+	margin-bottom:	10px;
+	width:			1400px;
+	height:			720px;
+}
+
+header {
+	margin-top:0px;
+	background-color:AntiqueWhite;
+	height:100px;
+	width:1400px;
+}
+.HeaderLogo {
+	float: left;
+	width:106px;
+	height:100px;
+	background-image: url("~/Bilder/Logo_Visitenkarte3_100px.JPG");
+} 
+.HeaderBild {
+	float: left;
+	width:1294px;
+	height:100px;
+	display: block;
+}
+.HeaderImage {
+	height:100px;
+}
+
+.ContentSection {
+	position:relative;
+	float: left;
+	width:1400px;
+	height:560px;
+	padding-top:20px;
+	background-image:url(~/Bilder/wallpapersTextureNo10140_preview.jpg);
+}
+.ShadowArea	{
+	height:95%;
+	width:90%;
+	margin:auto;
+}
+.IAmScrollable {
+ 	overflow:auto;
+	height:100%;
+}
+.IAmTextWithBorders {
+	margin-left:50px;
+}
+.SearchArea {
+	float:left;
+	width:20%;
+}
+.ResultArea {
+	float:right;
+	width:70%;
+}
+
+footer {
+	margin-top:0px;
+	padding:20px 50px 5px 50px;
+	background-color:AntiqueWhite;
+	height:40px;
+	width:1300px;
+}
+.VisitorCounter {	float:left;		}
+.CopyRight 		{	float:right;	}
+
+.GalerieButton {
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 10px;
+	width: 250px;
+	/* IE10+ */ 
+	background-image: -ms-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #3366FF 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #3366FF 100%);
+	
+	/* Opera */ 
+	background-image: -o-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #3366FF 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, left center, 0, left center, 530, color-stop(0, #FFFFFF), color-stop(100, #3366FF));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(left center, ellipse farthest-corner, #FFFFFF 0%, #3366FF 100%);
+	
+	/* W3C Markup */ 
+	background-image: radial-gradient(ellipse farthest-corner at left center, #FFFFFF 0%, #3366FF 100%);
+	
+	border-radius: 0px 40px 40px 0px; 
+	-moz-border-radius: 0px 40px 40px 0px; 
+	-webkit-border-radius: 0px 40px 40px 0px; 
+	border: 0px solid #800000;
+}
+
+}
